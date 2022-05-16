@@ -45,7 +45,7 @@ for executing the code.
   pip install gym
   ```
 
-4. Clone this repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+4. Clone this repository, and navigate to the `python/` folder.  Then, install several dependencies.
   ```bash
   cd Navigation_using_DQN/python
   pip install .
