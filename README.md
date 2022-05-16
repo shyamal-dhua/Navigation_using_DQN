@@ -83,7 +83,7 @@ for executing the code.
 11. The model parameters get stored in the folder `Navigation_using_DQN/checkpoints/`. During training we store the best checkpoints in `best_checkpoint.pth` and we 
 also store the intermediate checkpoints [all scoring > 13.0] in same folder using timestamp as well as score appended to its file name. The plots for the training get stored in `Navigation_using_DQN/plots/`. 
 
-12. A sample terminal output logs is present in `Navigation_using_DQN/terminal_ouput_logs.txt`.
+12. A sample terminal output logs is present in `Navigation_using_DQN/terminal_ouput_logs.txt`. The Jupyter notebook solution `Navigation.ipynb` and the project report `Report.ipynb` are present in the folder `Navigation_using_DQN/report/`.
 
 13. Below is how the agent was acting without training. The agent takes random actions. 
 <img src="images/untrained.gif">
