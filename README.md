@@ -49,7 +49,7 @@ for executing the code.
   pip install .
   ```
 
-5. Download whl file for `torch 0.4.0` from this [link](http://download.pytorch.org/whl/cpu/torch-0.4.0-cp36-cp36m-win_amd64.whl). Then install it using the command below. Also install `pywinpty` using `pipwin`, then install `jupyter` [Note: during installation of `jupyter` it tries to install a higher version of `pywinpty` and can give some error which we can ignore.]
+5. Download whl file for `torch 0.4.0` from `http://download.pytorch.org/whl/cpu/torch-0.4.0-cp36-cp36m-win_amd64.whl`. Then install it using the command below. Also install `pywinpty` using `pipwin`, then install `jupyter` [Note: during installation of `jupyter` it tries to install a higher version of `pywinpty` and can give some error which we can ignore.]
   ```bash
   pip install --no-deps path_to_torch_whl_file\torch-0.4.0-cp36-cp36m-win_amd64.whl
   pip install pipwin
