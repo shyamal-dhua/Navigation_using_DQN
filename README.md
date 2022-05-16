@@ -4,6 +4,8 @@
 
 For this project, we will train an agent to navigate (and collect bananas!) in a large, square world using `Deep Q Learning Algorithm`.
 
+<img src="images/description.gif">
+
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  Thus, the goal of our agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.  Given this information, the agent has to learn how to best select actions.  Four discrete actions are available, corresponding to:
@@ -82,5 +84,12 @@ for executing the code.
 also store the intermediate checkpoints [all scoring > 13.0] in same folder using timestamp as well as score appended to its file name. The plots for the training get stored in `Navigation_using_DQN/plots/`. 
 
 12. A sample terminal output logs is present in `Navigation_using_DQN/terminal_ouput_logs.txt`.
+
+13. Below is how the agent was acting without training. The agent takes random actions. 
+<img src="images/untrained.gif">
+
+14. After training, it looks as below. The agent has learnt to pick the yellow bananas while avoiding the blue ones. 
+<img src="images/trained.gif">
+
 
 
