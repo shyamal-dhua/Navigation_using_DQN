@@ -1,0 +1,73 @@
+(drlnd) PS C:\Users\shyam\Desktop\Projects\Navigation\Navigation_using_DQN> python main.py
+INFO:unityagents:
+'Academy' started successfully!
+Unity Academy name: Academy
+        Number of Brains: 1
+        Number of External Brains : 1
+        Lesson number : 0
+        Reset Parameters :
+
+Unity brain name: BananaBrain
+        Number of Visual Observations (per agent): 0
+        Vector Observation space type: continuous
+        Vector Observation space size (per agent): 37
+        Number of stacked Vector Observation: 1
+        Vector Action space type: discrete
+        Vector Action space size (per agent): 4
+        Vector Action descriptions: , , ,
+
+Running Train with the below parameters:
+
+n_episodes =  2000
+max_t =  1000
+eps_start =  1.0
+eps_end =  0.01
+eps_decay =  0.995
+
+
+Episode 100     Average Score: 1.397
+Episode 200     Average Score: 4.77
+Episode 300     Average Score: 7.55
+Episode 400     Average Score: 9.86
+Episode 500     Average Score: 12.57
+Episode 600     Average Score: 13.43
+Episode 700     Average Score: 14.70
+Episode 800     Average Score: 15.49
+Episode 900     Average Score: 15.77
+Episode 1000    Average Score: 15.86
+Episode 1100    Average Score: 15.08
+Episode 1200    Average Score: 15.56
+Episode 1300    Average Score: 15.19
+Episode 1400    Average Score: 15.28
+Episode 1500    Average Score: 15.11
+Episode 1600    Average Score: 15.93
+Episode 1700    Average Score: 15.83
+Episode 1800    Average Score: 15.86
+Episode 1900    Average Score: 15.43
+Episode 2000    Average Score: 13.77
+
+Environment solved in 1581 episodes!    Average Score: 16.07
+(drlnd) PS C:\Users\shyam\Desktop\Projects\Navigation\Navigation_using_DQN> python main.py --evaluate checkpoints/best_checkpoint.pth
+INFO:unityagents:
+'Academy' started successfully!
+Unity Academy name: Academy
+        Number of Brains: 1
+        Number of External Brains : 1
+        Lesson number : 0
+        Reset Parameters :
+
+Unity brain name: BananaBrain
+        Number of Visual Observations (per agent): 0
+        Vector Observation space type: continuous
+        Vector Observation space size (per agent): 37
+        Number of stacked Vector Observation: 1
+        Vector Action space type: discrete
+        Vector Action space size (per agent): 4
+        Vector Action descriptions: , , ,
+
+Running Test with the below parameters:
+
+checkpoint path =  checkpoints/best_checkpoint.pth
+
+
+(drlnd) PS C:\Users\shyam\Desktop\Projects\Navigation\Navigation_using_DQN>
